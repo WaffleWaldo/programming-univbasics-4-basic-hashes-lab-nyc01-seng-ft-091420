@@ -9,10 +9,14 @@ def my_hash
 end
 
 def pioneer
-  :name => 'Grace Hopper'
+  hash = {
+   :name => 'Grace Hopper'
+ }
 end
 
 
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+  hash = {
+    :id => number
+  }
 end
